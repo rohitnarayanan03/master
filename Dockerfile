@@ -1,4 +1,4 @@
-From centos:latest
+From centos7:latest
 RUN yum update -y && yum install -y python python-pip
 RUN pip install flask
 COPY app.py /opt/
